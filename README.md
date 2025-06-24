@@ -72,9 +72,41 @@ output:
 [1]
 The person has a heart disease
 
+## How to Run
+
+Follow these steps to set up and run the Heart Disease Prediction model on your local machine:
+
+1. **Clone the Repository**
+
+    ```bash
+    git clone https://github.com/araa2105/Heart_Disease_Prediction-Model.git
+    cd Heart_Disease_Prediction-Model
+    ```
+
+2. **Install Dependencies**
+
+    Make sure you have Python 3.8+ installed. Then install the required packages:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. **Add the Dataset**
+
+    Place the `data.csv` file in the root directory of the project.  
+    If your dataset is elsewhere or has a different name, update this line in the script:
+
+    ```python
+    heart_data = pd.read_csv('data.csv')
+    ```
+
+4. **Run the Notebook**
+
+      ```bash
+      jupyter notebook heart_disease_prediction.ipynb
+      ```
+
 ### Improvements
-Add data normalization
-
-Try other models (e.g. Random Forest, XGBoost)
-
-Build Streamlit/Flask interface for real-time prediction
+1. Add data normalization
+2. Try other models (e.g. Random Forest, XGBoost)
+3. Build Streamlit/Flask interface for real-time prediction
