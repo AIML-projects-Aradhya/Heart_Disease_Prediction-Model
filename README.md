@@ -79,7 +79,7 @@ Follow these steps to set up and run the Heart Disease Prediction model on your 
 1. **Clone the Repository**
 
     ```bash
-    git clone https://github.com/araa2105/Heart_Disease_Prediction-Model.git
+    git clone https://github.com/ara2105/Heart_Disease_Prediction-Model.git
     cd Heart_Disease_Prediction-Model
     ```
 
